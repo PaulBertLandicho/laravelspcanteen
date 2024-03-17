@@ -51,7 +51,7 @@
                 <input type="password" class="input-field" placeholder="Confirm Password" name="confirm_password">
                 <i class="far fa-eye show-hide-password" onclick="togglePassword(this, 'confirm_password')"></i>
             </div><br><br>
-            <center><button type="submit" class="submit" style="width: 110px;font-size:17px; height: 40px; background-color: maroon; color: #fff; border: none; border-radius: 3px;">Register</button>
+            <center><button type="button" onclick="window.location.href='setup'" style="width: 110px; font-size: 17px; height: 40px; background-color: maroon; color: #fff; border: none; border-radius: 3px;">Register</button>
             <br><br><br>
             <p class="message">Already have an account? <a href="loginpage" style="color:maroon;">Login</a></p>
         </form>

@@ -47,3 +47,23 @@ Route::get('/favorite', function () {
 Route::get('/orderhistory', function () {
     return view('orderhistory');
 });
+
+Route::get('/cart', function () {
+    return view('cart');
+});
+
+Route::get('/category1', function () {
+    return view('category1');
+});
+
+Route::get('/category2', function () {
+    return view('category2');
+});
+
+Route::get('/category3', function () {
+    return view('category3');
+});
+
+Route::get('/setup', function () {
+    return view('setup');
+});
