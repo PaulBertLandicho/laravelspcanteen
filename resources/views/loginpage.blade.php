@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{asset('css/index.css')}}">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Sign In</title>
+</head> 
+<body>
+
+    <div class="form-box">
+        <div class="center-icon">
+            <center><img src="https://i.ibb.co/7QLKBSz/423062764-1342544113808335-7405620093325838006-n-removebg-preview.png" alt="423062764-1342544113808335-7405620093325838006-n-removebg-preview" style="width:350px;height:180px;">
+        </div></center><br><br><br><br>
+
+        <form action="{{'login'}}" method="POST" id="login" class="input-group">
+            <br><br>
+            <div class="input-container">
+                <i class="fas fa-user-circle"></i>
+                <input type="text" class="input-field" placeholder="Username" name="username">
+            </div><br><br><br>
+            <div class="input-container">
+                <i class="fas fa-lock"></i>
+                <input type="password" class="input-field" placeholder="Password" name="password">
+                <i class="far fa-eye show-hide-password" onclick="togglePassword(this, 'password')"></i>
+            </div>
+            <a href="forgotpassword" class="forgot-password">Forgot password?</a><br><br><br>
+            <center>  <button type="button" onclick="window.location.href='dashboard'" style="width: 110px; font-size: 17px; height: 40px; background-color: maroon; color: #fff; border: none; border-radius: 3px;">Login</button>
+           <br><br><br><br>
+            <center><p class="message">Don't have any account? <a href="registerpage" style="color:maroon;">Register</a></p>
+        </form> 
+    </div>
+    
+    <script>
+       
+        function togglePassword(icon, field) {
+            var passwordField = icon.previousElementSibling;
+            if (passwordField.type === "password") {
+                passwordField.type = "text";
+                icon.classList.remove('fa-eye');
+                icon.classList.add('fa-eye-slash');
+            } else {
+                passwordField.type = "password";
+                icon.classList.remove('fa-eye-slash');
+                icon.classList.add('fa-eye');
+            }
+        }
+    </script>
+</body>
+</html>
