@@ -67,3 +67,7 @@ Route::get('/category3', function () {
 Route::get('/setup', function () {
     return view('setup');
 });
+
+Route::get('/about', function () {
+    return view('about');
+});

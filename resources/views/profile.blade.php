@@ -21,7 +21,7 @@
   <center><div class="container shadow" style="margin-left:43px; width: 350px; max-height: 175px; background-color:white; margin-top: 0px; border-radius: 10px;">  
   <div class="container">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="profileEdit.php"><i class="fa fa-edit" style="color: maroon;"></i></a><br>
-  <a href="changeprofile.php" style="text-decoration: none;">
+  <a href="#" style="text-decoration: none;">
   <img class="profile" src="{{URL('images/profile.jpg')}}" style="width: 70px; height: 70px; border-radius: 50%; margin-right:5px;">
 
       <center>
@@ -36,7 +36,7 @@
   <div class="icon-bar">
   <a class="active" href="dashboard"><span class="fa fa-dashboard ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<class style="color: black;">Dashboard</span></a><br><br> 
     <a class="active" href="orderhistory"><span class="fa fa-history">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<class style="color: black;">Order&nbsp;History</span></a><br></span></a><br> 
-    <a class="active" href="about.php"><span class="fa fa-info-circle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<class style="color: black;">About</span></a><br></span></a><br> 
+    <a class="active" href="about"><span class="fa fa-info-circle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<class style="color: black;">About</span></a><br></span></a><br> 
     <a class="active" href="loginpage"><span class="fa fa-sign-out">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<class style="color: black;">Logout</span></a><br></span></a><br>  
   </div><br>
 

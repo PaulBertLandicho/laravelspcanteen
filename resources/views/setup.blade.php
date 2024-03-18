@@ -17,7 +17,7 @@
     <br><br>
     <center>
     <div class="container">
-    <img class="profile" src="{{URL('images/profile.jpg')}}" style="width: 200px; height: 200px; border-radius: 50%;">
+    <img class="profile" src="{{URL('images/profile.PNG')}}" style="width: 200px; height: 200px; border-radius: 50%;">
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="edit_profile.php"><i class="fas fa-camera"></i></a></p>
     
@@ -33,7 +33,7 @@
     <p>If done setting up your account,<br>
     please click the button below to continue.</p>
 
-    <center><button type="button" onclick="window.location.href='dashboard'" style="width: 110px; font-size: 17px; height: 40px; background-color: maroon; color: #fff; border: none; border-radius: 3px;">Register</button>
+    <center><button type="button" onclick="window.location.href='dashboard'" style="width: 110px; font-size: 17px; height: 40px; background-color: maroon; color: #fff; border: none; border-radius: 3px;">DONE</button>
 </form>    <!-- Form ends here -->
 
     <script>

@@ -16,7 +16,15 @@
 <div><br><br>
     <center><h2><b>MY ORDERS</b></center></h2><br>
     
-</div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div id="product-list">
+    <a href="myqrcode">
+    <img class="profile" src="{{URL('upload/t.PNG')}}" style="margin-left:8px;width: 390px; height: 180px; border-radius: 20px; margin-right:5px;margin-bottom:10px;">
+    <img class="profile" src="{{URL('upload/g.PNG')}}" style="margin-left:8px;width: 390px; height: 180px; border-radius: 20px; margin-right:5px;margin-bottom:10px;"></a><br>
+    <center><button type="button" onclick="window.location.href='dashboard'" style="margin-right:290px;width: 120px; font-size: 17px; height: 30px; background-color: maroon; color: #fff; border: none; border-radius:10px; font-size:14px;">Total Price: ₱140
+</button>
+
+</div>
+</div>
 
 <div class="icon-bar">
  <a class="active" href="dashboard">

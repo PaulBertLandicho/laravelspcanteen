@@ -16,14 +16,21 @@
 <div><br><br>
     <center><h2><b>MY FAVORITE</b></center></h2><br>
     
-</div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div id="product-list">
+    <a href="orders">
+    <img class="profile" src="{{URL('upload/o.PNG')}}" style="margin-left:8px;width: 390px; height: 180px; border-radius: 20px; margin-right:5px;margin-bottom:10px;">
+    <img class="profile" src="{{URL('upload/n.PNG')}}" style="margin-left:8px;width: 390px; height: 180px; border-radius: 20px; margin-right:5px;margin-bottom:10px;"></a><br><br>
+</button>
+
+</div>
+</div>
 
 <div class="icon-bar">
  <a class="active" href="dashboard">
  <i class="fas fa-bars" style="font-size: 24px;"><br>
 <span style="font-size: 16px;">Menu</span>
 </a></i>
-<a class="active" href="Myfavorite.php">
+<a class="active" href="favorite">
   <i class="fas fa-heart"><br>
   <span style="font-size: 16px;">Favorite</span>
 </a></i>

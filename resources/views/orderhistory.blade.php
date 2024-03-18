@@ -16,7 +16,13 @@
 <div><br><br>
     <center><h2><b>MY HISTORY</b></center></h2><br>
     
-</div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div id="product-list">
+    <img class="profile" src="{{URL('upload/j.PNG')}}" style="margin-left:8px;width: 390px; height: 180px; border-radius: 20px; margin-right:5px;margin-bottom:10px;">
+    <img class="profile" src="{{URL('upload/h.PNG')}}" style="margin-left:8px;width: 390px; height: 180px; border-radius: 20px; margin-right:5px;margin-bottom:10px;"><br><br>
+</button>
+
+</div>
+</div>
 
 <div class="icon-bar">
  <a class="active" href="dashboard">

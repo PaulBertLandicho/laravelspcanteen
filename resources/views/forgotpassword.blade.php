@@ -28,7 +28,7 @@
          <div class="form-group mb-3">
     <a class="btn btn-primary" href="loginpage" style="background-color: maroon; width: 350px; color: white;" role="button">SEND</a>
 </div>
-<p> Or </p>
+<p>Or</p>
 <div class="form-group mb-3">
     <a class="btn btn-primary" href="registerpage" style="background-color: white; width: 350px; color: maroon;" role="button">SIGN  UP</a>
 </div>
