@@ -1,0 +1,46 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-color: lightgray;
+  display: flex;
+  height: 632px;
+  align-items: center;
+}
+
+body {margin:0}
+
+.icon-bar {
+width: 220px; /* Adjusted width */
+background-color: white;  
+position: sticky;
+top: 0;
+z-index: 999; /* Ensure it appears above other content */
+}
+
+.icon-bar a {
+display: block;
+text-align: left;
+padding: 12px; /* Adjusted padding */
+transition: all 0.3s ease;
+color: black;
+font-size: 18px; /* Adjusted font size */
+}
+
+.icon-bar a:hover {
+background-color: maroon;
+border-radius: 10px;
+}
+
+.container {
+max-width: 1200px;
+padding: 20px;
+}
+
+.page-title {
+font-size: 45px;
+font-weight: 600;
+margin-bottom: 170px;
+margin-top: 1px;
+
+color: #333;
+}

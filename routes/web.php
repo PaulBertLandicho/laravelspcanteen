@@ -71,3 +71,27 @@ Route::get('/setup', function () {
 Route::get('/about', function () {
     return view('about');
 });
+
+Route::get('/admin', function () {
+    return view('admin');
+});
+
+Route::get('/productlist', function () {
+    return view('productlist');
+});
+
+Route::get('/myqrcode', function () {
+    return view('myqrcode');
+});
+
+Route::get('/payment', function () {
+    return view('payment');
+});
+
+Route::get('/gcash', function () {
+    return view('gcash');
+});
+
+Route::get('/onhand', function () {
+    return view('onhand');
+});

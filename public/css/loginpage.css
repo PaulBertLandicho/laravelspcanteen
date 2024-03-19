@@ -98,6 +98,7 @@
 .forgot-password {
     color: red; /* Change the text color to red */
     float: right; /* Align the link to the right */
+    margin-right:25px;
 }
 
 .form-box {
@@ -128,7 +129,24 @@
 .show-hide-password {
     position: absolute;
     top: 50%;
-    left: 267px;
+    left: 250px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.form {
+    margin-top: 20px; /* Adjust the margin top as needed */
+    height: 600px; /* Set the height of the form-box */
+}
+.input-container {
+    position: relative;
+    margin-right:42px;
+
+}
+.show-hide-password {
+    position: absolute;
+    top: 50%;
+    left: 237px;
     transform: translateY(-50%);
     cursor: pointer;
 }

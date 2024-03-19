@@ -32,16 +32,16 @@ body {margin:0; background-color:lightgray;}
     width: 100%;
     background-color: maroon;
     overflow: auto;
-    margin-top: 78px;
+    margin-top: 98px;
 
     }
     
     .iconbar a {
     float: left;
-    height:55px;
+    height:80px;
     width: 20%;
     text-align: center;
-    padding: 12px 0;
+    padding: 15px 0;
     transition: all 0.3s ease;
     color: white;
     font-size: 25px;

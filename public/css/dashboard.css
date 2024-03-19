@@ -1,31 +1,30 @@
 .body {margin:0}
+
 body {
 background-color: lightgray;
 }
 
-/* Default styles */
 .circle {
- width: 88px; /* Adjust the width and height as needed */
+ width: 88px; 
  height: 88px;
- border-radius: 10%; /* Makes it circular */
- overflow: hidden; /* Ensures the image stays within the circle */
- display: inline-block; /* Allows it to be placed inline with text */
+ border-radius: 10%; 
+ overflow: hidden; 
+ display: inline-block; 
 }
 
-/* Styling for linked image */
 .circle img {
- width: 100%; /* Ensures the image fills the circle */
- height: auto; /* Maintains aspect ratio */
+ width: 100%; 
+ height: auto; 
 }
 
  .search-box {
  position: relative;
- width: 500px; /* Adjust as needed */
+ width: 500px; 
  right:10px;
 
 }
 
-/* Style for the search icon */
+
 .search-box .fas.fa-search {
  position: absolute;
  top: 50%;
@@ -38,9 +37,9 @@ background-color: lightgray;
  
 }
 
-/* Style for the input field */
+
 .search-box input[type="search"] {
- padding-left: 35px; /* Adjust to accommodate the icon */
+ padding-left: 35px; 
  border-radius: 30px;
  height: 50px;
  margin-left:80px;
@@ -58,8 +57,7 @@ background-color: lightgray;
  border-radius: 5px;
  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
  max-width: 380px;
- height: 290px
-
+ height: 290px;
 }
 
 .product-image {
@@ -90,29 +88,29 @@ background-color: lightgray;
 
 
 #product-list-container {
- height: 410px; /* Adjust the maximum height as needed */
- overflow-y: auto; /* Enable vertical scrollbar */
+ height: 410px; 
+ overflow-y: auto; 
 }
 
 .product-container {
- margin-bottom: 20px; /* Adjust spacing between products */
+ margin-bottom: 20px; 
 }
-/* Media query for responsiveness */
+
 @media screen and (max-width: 768px) {
  .circle {
-     width: 60px; /* Adjust the width and height for smaller screens */
+     width: 60px; 
      height: 60px;
  }
  .icon-bar {
-     display: show; /* Hide the icon bar on smaller screens */
+     display: show; 
  }
 
  .search-box {
-     width: 100%; /* Adjust the width of the search box */
+     width: 100%; 
  }
  
  .search-form input[type="text"] {
-     width: auto; /* Allow the input field to expand */
+     width: auto; 
  }
 }
 
@@ -125,6 +123,7 @@ overflow: auto;
 .icon-bar a {
 float: left;
 width: 20%;
+height: 70px;
 text-align: center;
 padding: 12px 0;
 transition: all 0.3s ease;
@@ -135,41 +134,41 @@ font-size: 25px;
  display: inline-block;
  margin: 0 10px;
  text-align: center;
- width: 40px; /* Adjust width as needed */
- height: 40px; /* Adjust height as needed */
- line-height: 40px; /* Center the icon vertically */
- border-radius: 50%; /* Make the shape circular */
- background-color: #ccc; /* Background color of the circle */
+ width: 40px; 
+ height: 40px; 
+ line-height: 40px;
+ border-radius: 50%; 
+ background-color: #ccc;
 }
 .icon-container {
- overflow-x: auto; /* Enable horizontal scrollbar */
- white-space: nowrap; /* Prevent wrapping of icons */
- padding: 75px 0px; /* Adjust padding to add space on the left and right */
- margin-top: 0px; /* Adjust margin */
- cursor: pointer; /* Change cursor to pointer */
+ overflow-x: auto; 
+ white-space: nowrap; 
+ padding: 75px 0px; 
+ margin-top: 0px; 
+ cursor: pointer;
  width:auto;
 }
 
 .iconbar {
- display: flex; /* Use flexbox for horizontal layout */
+ display: flex; 
  background-color:lightgray;
 
 }
 
 .iconbar img {
- width: 50px; /* Set width of each icon */
- height: 50px; /* Set height of each icon */
- margin-right: 1px; /* Adjust spacing between icons */
- border-radius: 50%; /* Make the image round */
- object-fit: cover; /* Ensure the image covers the entire container */
+ width: 50px; 
+ height: 50px; 
+ margin-right: 1px; 
+ border-radius: 50%; 
+ object-fit: cover; 
 }
 
 
 .icon-text {
- text-align: center; /* Center the text */
- margin-top: 0px; /* Adjust the margin between the image and text */
- font-size: 14px; /* Adjust the font size */
+ text-align: center; 
+ margin-top: 0px; 
+ font-size: 14px; 
  color:gray;
- margin-bottom: 25px; /* Adjust the margin between the image and text */
+ margin-bottom: 25px;
 
 }
