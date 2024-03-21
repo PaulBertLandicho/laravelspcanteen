@@ -3,7 +3,7 @@ body{
   margin: 0;
   background-color: lightgray;
   display: flex;
-  height: 632px;
+  max-height: 599px;
   align-items: center;
 }
 
@@ -33,7 +33,7 @@ border-radius: 10px;
 
 .container {
 max-width: 1200px;
-padding: 20px;
+padding: 10px;
 }
 
 .page-title {
@@ -41,8 +41,6 @@ font-size: 45px;
 font-weight: 600;
 margin-bottom: 170px;
 margin-top: 1px;
-
-color: #333;
 }
 
 .search-bar {
@@ -66,4 +64,43 @@ color: #333;
   padding: 12px;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.add-product-btn {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  margin-bottom: 550px;
+}
+
+.add-product-btn:hover {
+  background-color: #555;
+}
+
+.container-shadow{
+  width: 305px;
+  height: 645px;
+  margin-top: 50px;
+  background-color: white;
+}
+
+
+.container shadow{
+ max-width: 1200px;
+ margin-top: 10px;
+ height:655px;
+ background-color: lightgray;
+ text-align:center;
+}
+
+.submit{
+  width: 150px; 
+  text-align: center;
+  font-size:17px; height: 50px;
+  background-color: maroon;
+  color: #fff; border: none;
+  border-radius: 3px;
 }

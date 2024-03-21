@@ -1,11 +1,11 @@
 body{
-    padding: 0;
-    margin: 0;
-    display: flex;
-    height: auto;
-    align-items: center;
-    overflow: hidden;
-  }
+  padding: 0;
+  margin: 0;
+  background-color: lightgray;
+  max-height: 599px;
+  display: flex;
+  align-items: center;
+}
   
   body {margin:0}
   
@@ -84,6 +84,7 @@ body{
     justify-content: space-between;
     padding: 10px;
     margin-bottom: 3rem;
+    margin-left:10px;
   }
   
   .topp {
@@ -131,4 +132,11 @@ body{
   .bottomm {
     display: flex;
     justify-content: center;
+  }
+
+  .containershadow{
+    width: 305px;
+    height: 645px;
+    margin-top: 50px;
+    background-color: white;
   }

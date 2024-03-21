@@ -8,28 +8,11 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="{{asset('css/addproduct.css')}}">
 </head>
-<style>
- 
- .floating-container {
-             position: fixed;
-             background-color: white;
-             bottom:70px;
-
-             left:435px;
-             border-radius: 10px;
-             padding: 0px;
-             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-             width: 500px;
-             height: 455px;
-             z-index: 1; /* Ensure it's above the blurred background */
-         }
- 
- </style>
 <body>
   <center>
-    <div class="container shadow" style="width: 305px; height: 680px; background-color: white; ">
+    <div class="container-shadow">
       <div class="center-icon">
-        <img src="https://i.ibb.co/7QLKBSz/423062764-1342544113808335-7405620093325838006-n-removebg-preview.png" alt="423062764-1342544113808335-7405620093325838006-n-removebg-preview" style="width:220px;height:180px;margin-right:10px;filter: blur(2px);">
+        <img src="https://i.ibb.co/7QLKBSz/423062764-1342544113808335-7405620093325838006-n-removebg-preview.png" alt="423062764-1342544113808335-7405620093325838006-n-removebg-preview" style="width:220px;height:180px;margin-right:10px;">
         <br>
         <br>
         <div class="icon-bar">
@@ -70,15 +53,15 @@
   <div class="container">
     <div class="search-form">
       <form action="" method="GET">
-        <input type="text" name="search" style="filter: blur(2px);" placeholder="Search...">
+        <input type="text" name="search" placeholder="Search...">
         <button id="searchButton">
-          <i class="fa fa-search" style="font-size:20px; filter: blur(2px);"></i>
+          <i class="fa fa-search" style="font-size:20px;"></i>
         </button>
       </form>
     </div>
     <a href="addproduct" class="add-product-btn">
       <i class="far fa-plus-square"></i> Add Product </a>
-    <div id="product-list-container" style="text-align:center;">
+    <div id="product-list-container">
       <a href="edit.php">
         <img class="profile" src="{{URL('upload/as.PNG')}}" style="margin-left:8px;width: 300px; height: 250px; border-radius: 20px; margin-right:5px;margin-bottom:10px;">
       </a>
@@ -95,6 +78,7 @@
         <img class="profile" src="{{URL('upload/as.PNG')}}" style="margin-left:8px;width: 300px; height: 250px; border-radius: 20px; margin-right:5px;margin-bottom:10px;">
       </a>
     </div>
+
     <div class="floating-container">
 <center><h2>Add Product</h2><br>
         <form action="#">
