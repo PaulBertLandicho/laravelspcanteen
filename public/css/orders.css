@@ -26,12 +26,16 @@ body { margin-top: 10px; background-color:lightgray; }
 
     .product-container {
         display: flex;
+        align-items: center;
         margin-bottom: 20px;
-        margin-left:17px;
-        width:590px;
-        padding:10px;
-        height:164px;
-    }
+        margin-left: 18px;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 15px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        max-width: 380px;
+        height: 140px;
+       }
 
     .product-image {
         margin-right: 20px;
@@ -65,7 +69,7 @@ body { margin-top: 10px; background-color:lightgray; }
     width: 100%;
     background-color: maroon;
     overflow: auto;
-    margin-top:340px;
+    margin-top:390px;
 
     }
     

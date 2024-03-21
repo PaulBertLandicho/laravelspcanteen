@@ -13,14 +13,52 @@
  <div><br><br>
   <center><h2><b>MY CART</b></h2><br>
    <button type="button" onclick="window.location.href='payment'" style="margin-left:270px;width: 110px; font-size: 17px; height: 40px; background-color: maroon; color: #fff; border: none; border-radius:10px;">Place order</button></center><br>
-    <div id="product-list">
-     <a href="myqrcode">
-      <img class="profile" src="{{URL('upload/c.PNG')}}" style="margin-left:8px;width: 390px; height: 180px; border-radius: 20px; margin-right:5px;margin-bottom:10px;">
-       <img class="profile" src="{{URL('upload/u.PNG')}}" style="margin-left:8px;width: 390px; height: 180px; border-radius: 20px; margin-right:5px;margin-bottom:10px; margin-bottom:15px"></a>
-        <button type="button" onclick="window.location.href='dashboard'" style="margin-left:15px;width: 120px; font-size: 17px; height: 30px; background-color: maroon; color: #fff; border: none; border-radius:10px; font-size:14px;">Total Price: ₱140
-         </button>
-          </div>
+   <div class="form-group">
+  
+  
+           <div class="product-container">
+           <div class="product-image">
+           <img class="profile" src="{{URL('upload/burgerS.PNG')}}" alt="Product Image" style="width: 150px; height: 100px; border-radius: 15px;"><br>
            </div>
+            <div class="product-details">
+            <span class="product-name" style="font-size: 20px; font-weight: bold;">Burger</span><br>
+    <span class="product-total-price" style="font-size:20px;">₱ 125</span>
+            <form action="' . $_SERVER['PHP_SELF'] . '" method="GET">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="hidden" name="update_quantity_id" value="product_id_value">
+<button type="button" class="button-maroon minus-button">
+    <i class="fas fa-minus" style="color: white;"></i>
+</button>
+<input type="number" name="new_quantity" value="current_quantity_value" class="quantity-input" readonly>
+<button type="button" class="button-maroon plus-button">
+    <i class="fas fa-plus" style="color: white;"></i>
+</button>
+
+            </form><span class="product-total-price" style="font-size:10px; font-weight: bold;">Total Price: ₱</span><br>
+            <a href=""><i class="fas fa-trash" style="margin-left:160px; color: maroon; font-size:15px;"></i></a>
+            </div>
+            </div>
+            <div class="product-container">
+           <div class="product-image">
+           <img class="profile" src="{{URL('upload/hotdog.PNG')}}" alt="Product Image" style="width: 150px; height: 100px; border-radius: 15px;"><br>
+           </div>
+            <div class="product-details">
+            <span class="product-name" style="font-size: 20px; font-weight: bold;">Hotdog</span><br>
+    <span class="product-total-price" style="font-size:20px;">₱ 45</span>
+            <form action="' . $_SERVER['PHP_SELF'] . '" method="GET">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="hidden" name="update_quantity_id" value="product_id_value">
+<button type="button" class="button-maroon minus-button">
+    <i class="fas fa-minus" style="color: white;"></i>
+</button>
+<input type="number" id="quantity-input" name="new_quantity" value="current_quantity_value" class="quantity-input">
+<button type="button" class="button-maroon plus-button">
+    <i class="fas fa-plus" style="color: white;"></i>
+</button>
+
+            </form><span class="product-total-price" style="font-size:10px; font-weight: bold;">Total Price: ₱</span><br>
+            <a href="#"><i class="fas fa-trash" style="margin-left:160px; color: maroon; font-size:15px;"></i></a>
+            </div>
+            </div>
+  
             <div class="icon-bar">
              <a class="active" href="dashboard">
               <i class="fas fa-bars" style="font-size: 24px;"><br>
@@ -42,4 +80,18 @@
                 <i class="far fa-user-circle"style="font-size: 24px;"><br>
                <span style="font-size: 16px;">Profile</span>
               </a></i>
+
+              <script>
+    document.querySelector('.minus-button').addEventListener('click', function() {
+        var currentQuantity = parseInt(document.getElementById('quantity-input').value);
+        if (currentQuantity > 0) {
+            document.getElementById('quantity-input').value = currentQuantity - 1;
+        }
+    });
+
+    document.querySelector('.plus-button').addEventListener('click', function() {
+        var currentQuantity = parseInt(document.getElementById('quantity-input').value);
+        document.getElementById('quantity-input').value = currentQuantity + 1;
+    });
+</script>
             </body>

@@ -44,3 +44,26 @@ margin-top: 1px;
 
 color: #333;
 }
+
+.search-bar {
+  position: fixed;
+  top: 70px;
+  left: 1000px;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 10px;
+  border: 0.50px solid #000000;
+  border-radius: 10px;
+  width: 290px;
+}
+
+.search-bar button {
+  background-color: #ffffff;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}

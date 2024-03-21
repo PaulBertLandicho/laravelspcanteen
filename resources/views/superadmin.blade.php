@@ -16,29 +16,29 @@
         <br>
         <br>
         <div class="icon-bar">
-          <a class="active" href="admin">
+          <a class="active" href="superadmin">
             <span class="fa fa-dashboard ">
               <class style="color: black; margin-left:26px;">Dashboard
             </span>
           </a>
           <br>
-          <a class="active" href="productlist">
+          <a class="active" href="superproductlist">
             <span class="fa fa-history">
               <class style="color: black; margin-left:26px;">Add Products
             </span>
             </a>
           <br>
-          <a class="active" href="transactionhistory">
+          <a class="active" href="transactionsuper">
             <span class="far fa-file">
               <class style="color: black; margin-left:26px;">Transaction History
             </span>
           </a>
           <br>
           
-          <a class="active" href="orderscanner">
+          <a class="active" href="manageuser">
             <span class="fa fa-qrcode">
-              <class style="color: black; margin-left:26px;">Order Scanner
-            </span>
+              <class style="color: black; margin-left:26px;">Manage User
+                        </span>
           </a>
           <br>
           <a class="active" href="loginpage">
@@ -57,7 +57,7 @@
   <div class="container shadow" style="max-width: 1200px; margin-top: 10px; height:655px; background-color: lightgray;">
     <div class="container">
       <h2>
-        <b>Hello Admin!</b>
+        <b>Hello Super Admin!</b>
       </h2>
       <div class="topp">
       <div class="box">

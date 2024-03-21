@@ -17,7 +17,7 @@
             <div class="container">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="profileEdit.php"><i class="fa fa-edit" style="color: maroon;"></i></a><br>
                <a href="#" style="text-decoration: none;">
-                <img class="profile" src="{{URL('images/profile.jpg')}}" style="width: 70px; height: 70px; border-radius: 50%; margin-right:5px;">
+                <img class="profile" src="{{URL('images/pic.jpg')}}" style="width: 70px; height: 70px; border-radius: 50%; margin-right:5px;">
                   <b><p style="color:black; font-size: 25px;"></p></b>
                    <h1 style="color: gray; font-size: 18px;">&nbsp;Romarc</h1>
                     <h1 style="color: gray; font-size: 14px;">&nbsp;Student</h1><br>

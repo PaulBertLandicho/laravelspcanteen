@@ -49,7 +49,7 @@
 
                <center><div id="product-list-container">
               <div id="product-list">
-                <a href="cart">
+              <a href="cart">
              <img class="profile" src="{{URL('upload/burger.PNG')}}" style="margin-left:8px;width: 390px; height: 250px; border-radius: 20px; margin-right:5px;margin-bottom:10px;">
             <img class="profile" src="{{URL('upload/a.PNG')}}" style="margin-left:8px;width: 390px; height: 250px; border-radius: 20px; margin-right:5px;margin-bottom:10px;">
            <img class="profile" src="{{URL('upload/b.PNG')}}" style="margin-left:8px;width: 390px; height: 250px; border-radius: 20px; margin-right:5px;margin-bottom:10px;">

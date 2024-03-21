@@ -95,3 +95,45 @@ Route::get('/gcash', function () {
 Route::get('/onhand', function () {
     return view('onhand');
 });
+
+Route::get('/example', function () {
+    return view('example');
+});
+
+Route::get('/transactionhistory', function () {
+    return view('transactionhistory');
+});
+
+Route::get('/orderscanner', function () {
+    return view('orderscanner');
+});
+
+Route::get('/adminorderlist', function () {
+    return view('adminorderlist');
+});
+
+Route::get('/manageuser', function () {
+    return view('manageuser');
+});
+
+Route::get('/superadmin', function () {
+    return view('superadmin');
+});
+
+Route::get('/addproduct', function () {
+    return view('addproduct');
+});
+
+Route::get('/superproductlist', function () {
+    return view('superproductlist');
+});
+
+
+Route::get('/transactionsuper', function () {
+    return view('transactionsuper');
+});
+
+Route::get('/superaddproduct', function () {
+    return view('superaddproduct');
+});
+

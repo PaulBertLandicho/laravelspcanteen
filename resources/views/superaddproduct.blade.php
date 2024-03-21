@@ -6,13 +6,30 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="{{asset('css/productlist.css')}}">
+  <link rel="stylesheet" href="{{asset('css/addproduct.css')}}">
 </head>
+<style>
+ 
+ .floating-container {
+             position: fixed;
+             background-color: white;
+             bottom:70px;
+
+             left:435px;
+             border-radius: 10px;
+             padding: 0px;
+             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+             width: 500px;
+             height: 455px;
+             z-index: 1; /* Ensure it's above the blurred background */
+         }
+ 
+ </style>
 <body>
   <center>
     <div class="container shadow" style="width: 305px; height: 680px; background-color: white; ">
       <div class="center-icon">
-        <img src="https://i.ibb.co/7QLKBSz/423062764-1342544113808335-7405620093325838006-n-removebg-preview.png" alt="423062764-1342544113808335-7405620093325838006-n-removebg-preview" style="width:220px;height:180px;margin-right:10px;">
+        <img src="https://i.ibb.co/7QLKBSz/423062764-1342544113808335-7405620093325838006-n-removebg-preview.png" alt="423062764-1342544113808335-7405620093325838006-n-removebg-preview" style="width:220px;height:180px;margin-right:10px;filter: blur(2px);">
         <br>
         <br>
         <div class="icon-bar">
@@ -53,9 +70,9 @@
   <div class="container">
     <div class="search-form">
       <form action="" method="GET">
-        <input type="text" name="search" placeholder="Search...">
+        <input type="text" name="search" style="filter: blur(2px);" placeholder="Search...">
         <button id="searchButton">
-          <i class="fa fa-search" style="font-size:20px;"></i>
+          <i class="fa fa-search" style="font-size:20px; filter: blur(2px);"></i>
         </button>
       </form>
     </div>
@@ -78,4 +95,28 @@
         <img class="profile" src="{{URL('upload/as.PNG')}}" style="margin-left:8px;width: 300px; height: 250px; border-radius: 20px; margin-right:5px;margin-bottom:10px;">
       </a>
     </div>
+    <div class="floating-container">
+<center><h2>Add Product</h2><br>
+        <form action="#">
+        <label for="image">Product Image:</label><br><br>
+        <input type="file" id="image" name="image"><br><br>
+            <label for="name">Product Name:</label><br> 
+            <input type="text" id="name" name="name"><br>
+            <label for="price">Price:</label><br>
+            <input type="text" id="price" name="price"><br>
+            <label for="category">Category:</label><br>
+            <select id="category" name="category">
+                <option value="1">Breakfast</option>
+                <option value="2">Lunch</option>
+                <option value="3">Snack</option>
+                <option value="4">Beverage</option>
+                <option value="5">Dinner</option>
+                <option value="6">Dessert</option>
+                <option value="7">Healthy</option>
+            </select><br><br>       
+        <input type="submit" value="Add Product">
+
+            <a href="superproductlist"><button type="button">Cancel</button></a>
+            </form>
+</div>  
 </body>

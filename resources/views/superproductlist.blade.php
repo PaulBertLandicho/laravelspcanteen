@@ -16,25 +16,25 @@
         <br>
         <br>
         <div class="icon-bar">
-          <a class="active" href="admin">
+          <a class="active" href="superadmin">
             <span class="fa fa-dashboard ">
               <class style="color: black; margin-left:26px;">Dashboard
             </span>
           </a>
-          <a class="active" href="productlist" style="margin-top: 20px;">
+          <a class="active" href="superproductlist" style="margin-top: 20px;">
             <span class="fa fa-history">
               <class style="color: black; margin-left:26px;">Add Products
             </span>
           </a>
           </span>
-          <a class="active" href="transactionhistory" style="margin-top: 20px;">
+          <a class="active" href="transactionsuper" style="margin-top: 20px;">
             <span class="far fa-file">
               <class style="color: black; margin-left:26px;">Transaction History
             </span>
           </a>
-          <a class="active" href="orderscanner" style="margin-top: 20px;">
+          <a class="active" href="manageuser" style="margin-top: 20px;">
             <span class="fa fa-qrcode">
-              <class style="color: black; margin-left:26px;">Order Scanner
+              <class style="color: black; margin-left:26px;">Manage User
             </span>
           </a>
           </span>
@@ -53,13 +53,13 @@
   <div class="container">
     <div class="search-form">
       <form action="" method="GET">
-        <input type="text" name="search" placeholder="Search...">
+        <input type="text" name="search" class="search-bar"placeholder="Search...">
         <button id="searchButton">
           <i class="fa fa-search" style="font-size:20px;"></i>
         </button>
       </form>
     </div>
-    <a href="addproduct" class="add-product-btn">
+    <a href="superaddproduct" class="add-product-btn">
       <i class="far fa-plus-square"></i> Add Product </a>
     <div id="product-list-container" style="text-align:center;">
       <a href="edit.php">
